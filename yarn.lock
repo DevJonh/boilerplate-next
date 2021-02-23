@@ -1933,15 +1933,15 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/cli@6.1.18":
-  version "6.1.18"
-  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.1.18.tgz#923b86dd19d0bb1b8f4fc61ef36b34e0e9fc9997"
-  integrity sha512-a94M31svu00zJMaNzOJRyIxwSwed9/VhTCiba+uJL25sGagD3+zKwdUABIsOiVWtGCVxHEp9/lWyNKuKVQMMJQ==
+"@storybook/cli@6.1.19":
+  version "6.1.19"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.1.19.tgz#13a328120f6088be960b8588352654447a84d8f3"
+  integrity sha512-C9ry8mZ3NPwimRzL8GB+/7X7RCKsv2WoygUN6Ij2x0TPahPSUzAlQqtNlKTZDT0SMiuIk4q04OHcRGAPb88WDw==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/preset-env" "^7.12.1"
-    "@storybook/codemod" "6.1.18"
-    "@storybook/node-logger" "6.1.18"
+    "@storybook/codemod" "6.1.19"
+    "@storybook/node-logger" "6.1.19"
     "@storybook/semver" "^7.3.2"
     chalk "^4.0.0"
     commander "^5.0.0"
@@ -2026,14 +2026,14 @@
     core-js "^3.0.1"
     global "^4.3.2"
 
-"@storybook/codemod@6.1.18":
-  version "6.1.18"
-  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-6.1.18.tgz#70c428eab0100609361e0502a222dfd333e2ca67"
-  integrity sha512-yroPFczVZJmPJNWvRbLTQ+hmoc7yZpeLupBSJfMKfmNiofycCUQ7gjTl4cjd5jjlzfasq7ZkvQmQKEocduyS4A==
+"@storybook/codemod@6.1.19":
+  version "6.1.19"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-6.1.19.tgz#cfce0e6562ffd83089e0d0940010188057c0036a"
+  integrity sha512-E97QFb2m8r7RL68EW1+5BViLTR50cPXqwc9+CwQ+2t9g3sWDkEb15HiBmA58IizaKxG8Vwz3U1S8es9NxGmEBQ==
   dependencies:
     "@mdx-js/mdx" "^1.6.19"
     "@storybook/csf" "0.0.1"
-    "@storybook/node-logger" "6.1.18"
+    "@storybook/node-logger" "6.1.19"
     core-js "^3.0.1"
     cross-spawn "^7.0.0"
     globby "^11.0.0"
@@ -2997,7 +2997,7 @@
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
-"@typescript-eslint/parser@^4.15.2":
+"@typescript-eslint/parser@^4.15.1":
   version "4.15.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.15.2.tgz#c804474321ef76a3955aec03664808f0d6e7872e"
   integrity sha512-SHeF8xbsC6z2FKXsaTb1tBCf0QZsjJ94H6Bo51Y1aVEZ4XAefaw5ZAilMoDPlGghe+qtq7XdTiDlGfVTOmvA+Q==
@@ -3007,14 +3007,6 @@
     "@typescript-eslint/typescript-estree" "4.15.2"
     debug "^4.1.1"
 
-"@typescript-eslint/scope-manager@4.15.1":
-  version "4.15.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.15.1.tgz#f6511eb38def2a8a6be600c530c243bbb56ac135"
-  integrity sha512-ibQrTFcAm7yG4C1iwpIYK7vDnFg+fKaZVfvyOm3sNsGAerKfwPVFtYft5EbjzByDJ4dj1WD8/34REJfw/9wdVA==
-  dependencies:
-    "@typescript-eslint/types" "4.15.1"
-    "@typescript-eslint/visitor-keys" "4.15.1"
-
 "@typescript-eslint/scope-manager@4.15.2":
   version "4.15.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.15.2.tgz#5725bda656995960ae1d004bfd1cd70320f37f4f"
@@ -3023,28 +3015,10 @@
     "@typescript-eslint/types" "4.15.2"
     "@typescript-eslint/visitor-keys" "4.15.2"
 
-"@typescript-eslint/types@4.15.1":
-  version "4.15.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.15.1.tgz#da702f544ef1afae4bc98da699eaecd49cf31c8c"
-  integrity sha512-iGsaUyWFyLz0mHfXhX4zO6P7O3sExQpBJ2dgXB0G5g/8PRVfBBsmQIc3r83ranEQTALLR3Vko/fnCIVqmH+mPw==
-
 "@typescript-eslint/types@4.15.2":
   version "4.15.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.15.2.tgz#04acf3a2dc8001a88985291744241e732ef22c60"
   integrity sha512-r7lW7HFkAarfUylJ2tKndyO9njwSyoy6cpfDKWPX6/ctZA+QyaYscAHXVAfJqtnY6aaTwDYrOhp+ginlbc7HfQ==
-
-"@typescript-eslint/typescript-estree@4.15.1":
-  version "4.15.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-4.15.1.tgz#fa9a9ff88b4a04d901ddbe5b248bc0a00cd610be"
-  integrity sha512-z8MN3CicTEumrWAEB2e2CcoZa3KP9+SMYLIA2aM49XW3cWIaiVSOAGq30ffR5XHxRirqE90fgLw3e6WmNx5uNw==
-  dependencies:
-    "@typescript-eslint/types" "4.15.1"
-    "@typescript-eslint/visitor-keys" "4.15.1"
-    debug "^4.1.1"
-    globby "^11.0.1"
-    is-glob "^4.0.1"
-    semver "^7.3.2"
-    tsutils "^3.17.1"
 
 "@typescript-eslint/typescript-estree@4.15.2":
   version "4.15.2"
@@ -3058,14 +3032,6 @@
     is-glob "^4.0.1"
     semver "^7.3.2"
     tsutils "^3.17.1"
-
-"@typescript-eslint/visitor-keys@4.15.1":
-  version "4.15.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-4.15.1.tgz#c76abbf2a3be8a70ed760f0e5756bf62de5865dd"
-  integrity sha512-tYzaTP9plooRJY8eNlpAewTOqtWW/4ff/5wBjNVaJ0S0wC4Gpq/zDVRTJa5bq2v1pCNQ08xxMCndcvR+h7lMww==
-  dependencies:
-    "@typescript-eslint/types" "4.15.1"
-    eslint-visitor-keys "^2.0.0"
 
 "@typescript-eslint/visitor-keys@4.15.2":
   version "4.15.2"
@@ -11822,12 +11788,12 @@ saxes@^5.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
-sb@^6.1.18:
-  version "6.1.18"
-  resolved "https://registry.yarnpkg.com/sb/-/sb-6.1.18.tgz#9e68bc398a5230991f04263ab50ef5f0ef4632a0"
-  integrity sha512-7DvkIvfLIzbvhz31mhxyx5Aum7JVWF+6J9HkCFTiDHmw6/q0bHvdU96s7zqrluxsHk2xojH32qRhveinnj5a/A==
+sb@^6.1.19:
+  version "6.1.19"
+  resolved "https://registry.yarnpkg.com/sb/-/sb-6.1.19.tgz#4b9152e462f7ebb75afcea24af6febc70d1c1d52"
+  integrity sha512-/43/figmVhDEx7vVH0d0LfbKsKTInBqW3CNUSTYUd2fFLp/jYFGwS+Nz+ophWus7iVQc2ixU0kxHkyqogIGl1w==
   dependencies:
-    "@storybook/cli" "6.1.18"
+    "@storybook/cli" "6.1.19"
 
 scheduler@^0.20.1:
   version "0.20.1"
