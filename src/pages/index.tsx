@@ -1,6 +1,6 @@
 import Main from 'components/Main'
 
-const bla = 'teste 2'
+const bla = 'teste'
 
 const Home = () => {
   return <Main />
