@@ -14,6 +14,7 @@ function App({ Component, pageProps }: AppProps) {
           content="A simple project started to work with Typescript, React, NextJS and Styled Components"
         />
         <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#06092b" />
       </Head>
       <GlobalStyle />
       <Component {...pageProps} />
